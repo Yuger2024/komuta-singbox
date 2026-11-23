@@ -2,11 +2,11 @@
   "log": {"level": "info"},
   "inbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "listen": "0.0.0.0",
       "listen_port": 8080,
-      "users": [{"uuid": "a1e378a3-16d3-4c7b-ab36-cb171f0a428c"}],
-      "transport": {"type": "ws", "path": "/vless"}
+      "users": [{"password": "b2XefVGLfgQtiO5m4ulp"}],
+      "transport": {"type": "ws", "path": "/trojan"}
     }
   ],
   "outbounds": [{"type": "direct", "tag": "direct"}],
